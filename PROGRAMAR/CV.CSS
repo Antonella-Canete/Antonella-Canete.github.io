@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 90vh;
+}
+
+section#hero{
+    background-color: #8FBCBB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#hero img{
+    width: 20%;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: super;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.FormacionAcademica{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.Formacion{
+border: 5px solid #81A1C1;
+width: 300px;
+border-radius: 15px;
+margin: 20px;
+background-color: #88C0D0;
+}
+
+.Formacion img{
+    width: 100%;
+}
+
+.FormacionLaboral{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Experiencias{
+border: 5px solid #81A1C1;
+width: 300px;
+border-radius: 15px;
+margin: 20px;
+background-color: #88C0D0;
+}
+
+.Experiencias img{
+    width: 100%; 
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #448584;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #8FBCBB;
+}
+
+div{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px; 
+}
+
+form{
+  padding: 60px;
+  max-width: 400px;
+  background-color: #448584;
+  margin: 0 auto;
+}
+
+form input, form textarea{
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: none; 
+}
+
+form button {
+	display: block;
+	background-color: #7b9998;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+}
